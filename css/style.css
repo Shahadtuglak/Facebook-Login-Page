@@ -1,0 +1,347 @@
+/* Facebook Login Page UI Design By Shahad Tuglak*/
+/* Visit => https://shahadtuglak.netlify.app/ */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F0FFF0;
+    
+}
+
+
+
+
+/* Media Queries */
+
+/* Small Screen / Mobile */
+@media (max-width: 768px) {
+
+    .container{
+        display: block;
+        margin: 1rem;
+       
+
+    }
+    .left-section{
+        text-align: center;
+    }
+    .right-section{
+        text-align: center;
+    }
+    p{
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+    .left-section h1{
+        font-family: Helvetica;
+        font-size: 3.5rem;
+        font-weight: bold;
+        color:#1877f2;
+        margin-bottom: 1rem;
+    }
+    
+    .left-section h4{
+        font-family: sans-serif;
+        font-size: 28px;
+        font-weight: lighter;
+    }
+
+    
+    .right-section form{
+        padding: 1rem;
+        width: 400px;
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        margin-top: 1rem;
+        height: 350px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-right: 4rem;
+        margin-left:2rem;
+        text-align: center;
+        background-color: white;
+    }
+
+    a{
+        font-family: Helvetica;
+        text-decoration: none;
+        margin-bottom: 15px;
+    }
+    
+    button{
+       color:#fff;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: large;
+        margin: 1rem;
+        border:none;
+        
+    }
+    
+    .login{
+        background-color: #1877f2;
+        width: 90%;
+    }
+    
+    .create{
+        background-color: green;
+    }
+    .page{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+    }
+    hr{
+        margin: 2px;
+    }
+    
+    
+    input{
+        margin: 5px;
+        font-size: 17px;
+        width: 20rem;
+        border:1px solid rgb(128,128,128);
+        padding: 10px;
+        border-radius: 3px;
+    }
+    
+    
+
+
+
+}
+
+  /* Tablet Screen */
+@media (min-width: 769px) and (max-width: 1023px) {
+    .container{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    
+        width: 100%;
+    }
+    p{
+        margin-top: 1rem;
+        margin-left: 3rem;
+     }
+     
+     /* Left Section */
+     
+     .left-section{
+         margin-left: 10rem;
+         margin-top: 12rem;
+         width: 50%;
+         
+     
+     }
+     
+     .left-section h1{
+         font-family: Helvetica;
+         font-size: 3.5rem;
+         font-weight: bold;
+         color:#1877f2;
+         margin-bottom: 1rem;
+     }
+     
+     .left-section h4{
+         font-family: sans-serif;
+         font-size: 28px;
+         font-weight: lighter;
+     }
+     
+     /* Right Section*/
+     
+     .right-section{
+         width: 50%;
+     
+     }
+     
+     .right-section form{
+         padding: 1rem;
+         width: 400px;
+         border: 1px solid whitesmoke;
+         border-radius: 10px;
+         margin-top: 8rem;
+         height: 350px;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     
+         
+         margin-right: 4rem;
+         margin-left:1rem ;
+         text-align: center;
+         background-color: white;
+     }
+     a{
+         font-family: Helvetica;
+         text-decoration: none;
+         margin-bottom: 15px;
+     }
+     
+     button{
+        color:#fff;
+         padding: 10px;
+         border-radius: 5px;
+         font-family: sans-serif;
+         font-weight: bold;
+         font-size: large;
+         margin: 1rem;
+         border:none;
+         
+     }
+     
+     .login{
+         background-color: #1877f2;
+         width: 90%;
+     }
+     
+     .create{
+         background-color: green;
+     }
+     
+     .page{
+         text-decoration: none;
+         color: black;
+         font-weight: bold;
+         text-align: center;
+     }
+     hr{
+         margin: 2px;
+     }
+     
+     
+     input{
+         margin: 5px;
+         font-size: 17px;
+         
+         width: 20rem;
+         border:1px solid rgb(128,128,128);
+         padding: 10px;
+         border-radius: 3px;
+     }
+
+
+
+
+}
+  
+  /* Desktop Screen */
+@media (min-width: 1024px) {
+    .container{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    
+        width: 100%;
+    }
+    p{
+        margin-top: 1rem;
+        margin-right: 18rem;
+     }
+     
+     /* Left Section */
+     
+     .left-section{
+         margin-left: 15rem;
+         margin-top: 12rem;
+         width: 40%;
+         
+     
+     }
+     
+     .left-section h1{
+         font-family: Helvetica;
+         font-size: 3.5rem;
+         font-weight: bold;
+         color:#1877f2;
+         margin-bottom: 1rem;
+     }
+     
+     .left-section h4{
+         font-family: sans-serif;
+         font-size: 28px;
+         font-weight: lighter;
+     }
+     
+     /* Right Section*/
+     
+     .right-section{
+         width: 50%;
+     
+     }
+     
+     .right-section form{
+         padding: 1rem;
+         width: 400px;
+         border: 1px solid whitesmoke;
+         border-radius: 10px;
+         margin-top: 8rem;
+         height: 350px;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     
+         
+         margin-right: 4rem;
+         margin-left:1rem ;
+         text-align: center;
+         background-color: white;
+     }
+     a{
+         font-family: Helvetica;
+         text-decoration: none;
+         margin-bottom: 15px;
+     }
+     
+     button{
+         
+         color:#fff;
+         padding: 10px;
+         border-radius: 5px;
+         font-family: sans-serif;
+         font-weight: bold;
+         font-size: large;
+         margin: 1rem;
+         border:none;
+         
+     }
+     
+     .login{
+         background-color: #1877f2;
+         width: 90%;
+     }
+     
+     .create{
+         background-color: green;
+     }
+     
+     .page{
+         text-decoration: none;
+         color: black;
+         font-weight: bold;
+         
+     }
+     hr{
+         margin: 2px;
+     }
+     
+     
+     input{
+         margin: 5px;
+         font-size: 17px;
+         
+         width: 20rem;
+         border:1px solid rgb(128,128,128);
+         padding: 10px;
+         border-radius: 3px;
+     }
+     
+
+
+
+    
+}
